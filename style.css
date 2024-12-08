@@ -1,0 +1,98 @@
+/* GENERALES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #666;
+    background-color: #c2c8c8;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #6cab61 ; 
+    line-height: 1.4em;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 300;
+    background: #6cab61;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin: 1.4em 0;
+    text-align: justify;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+    p.intro {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        border-top: 0.0625rem #ccc solid;
+        border-bottom: 0.0625rem #ccc solid;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1em 0;
+    }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #539648;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #204b18;
+        text-decoration: underline;
+    }
+
+
+/* CONTENIDO */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 62.5rem;
+    margin: 2em auto;
+    box-shadow: 0 0 0.625rem rgba(0,0,0,.3);
+}
+
+
+#cabecera h1 {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    list-style: none;
+    text-align: center;     
+}
+
+#pie-pagina {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+}
